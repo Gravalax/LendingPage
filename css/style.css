@@ -60,17 +60,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 /*Basic style*/
 body {
   font-family: "Roboto", sans-serif;
-  background: #fff;
-}
-
-.container {
+  background: #ffffff;
   min-width: 320px;
   max-width: 100%;
   box-sizing: border-box;
   margin: 0 auto;
 }
 
-.wrap {
+.container {
   min-width: 320px;
   max-width: 1180px;
   box-sizing: border-box;
@@ -87,6 +84,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.header {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

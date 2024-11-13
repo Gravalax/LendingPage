@@ -2,14 +2,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: #fff
-}
-
-.container {
+  background: #ffffff;
   @include min-max(320px, 100%);
 }
 
-.wrap {
+.container {
   @include min-max(320px, 1180px);
 }
 
