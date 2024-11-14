@@ -87,7 +87,54 @@ img {
 }
 
 .header {
-  background-color: blue;
+  background-color: #172755;
+}
+
+.header__top {
+  padding-top: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  transform: translateX(-100px);
+}
+
+.nav__list-item a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #8794ba;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav__auth-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #8794ba;
+  text-decoration: none;
+}
+.nav__auth-link--login {
+  margin-right: 30px;
+}
+
+.nav__auth-link--login {
+  padding: 5px 10px;
+}
+
+.nav__auth-link--registration {
+  border: 1px solid #465b95;
+  border-radius: 68px;
+  padding: 10px 53px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,3 +4,11 @@
   box-sizing: border-box;
   margin: 0 auto;
 }
+
+@mixin text-style-header {
+  font-family: $font-family;
+  font-weight: 400;
+  font-size: 16px;
+  color: $text---secondary;
+  text-decoration: none;
+}
