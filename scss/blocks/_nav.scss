@@ -2,10 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
+  &--spaced {
+    padding-top: 50px;
+    margin-bottom: 75px;
+  }
 }
-.nav__logo {
-}
+
 .nav__list {
   display: flex;
   justify-content: center;
@@ -13,12 +16,12 @@
 
   transform: translateX(-100px);
 }
+
 .nav__list-item a {
   @include text-style-header;
   padding: 10px;
 }
-.nav__auth {
-}
+
 .nav__auth-link {
   @include text-style-header;
 
@@ -26,9 +29,11 @@
     margin-right: 30px;
   }
 }
+
 .nav__auth-link--login {
   padding: 5px 10px;
 }
+
 .nav__auth-link--registration {
   border: 1px solid #465b95;
   border-radius: 68px;

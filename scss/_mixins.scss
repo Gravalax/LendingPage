@@ -3,6 +3,7 @@
   max-width: $max-width;
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 0 $container-padding;
 }
 
 @mixin text-style-header {

@@ -9,7 +9,9 @@
 <body>
   <header class="header">
     <div class="container">
-      <nav class="nav header__top">
+
+      <!-- nav -->
+      <nav class="nav nav--spaced">
         <a class="nav__logo" href="#">
           <img src="./assets/logo/logo.svg" alt="logo">
         </a>
@@ -25,10 +27,26 @@
         <div class="nav__auth">
           <a href="#" class="nav__auth-link nav__auth-link--login">sign up</a>
           <a href="#" class="nav__auth-link nav__auth-link--registration">registration</a>
+        </div> <!-- /nav__auth-->
+      </nav> <!-- /nav-->
+    </div> <!-- /container -->
+
+    <!-- header__row -->
+    <div class="container-right">
+      <div class="header__row">
+        <div class="header__content">
+          <h1 class="header__title">Monitor your business on real-time dashboard</h1>
+          <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.</p>
+          <button class="header__btn" >Try for free</button>
+        </div> <!-- /header__content -->
+
+        <div class="header__images"> <!-- хочу сделать анимацию выплывающих окон псевдокласса-->
+          <img src="./assets/img/main-screen.svg" alt="main">
         </div>
-      </nav>
-      <div class="header__row"></div>
-    </div>
+
+
+      </div>
+    </div>  <!-- /container-right -->
   </header>
 </body>
 </html>

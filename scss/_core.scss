@@ -1,19 +1,25 @@
 /*Basic style*/
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background: #ffffff;
+  font-family: $font-family;
+  background: $dark-blue;
   @include min-max(320px, 100%);
+  padding: 0;
 }
 
 .container {
-  @include min-max(320px, 1180px);
+  @include min-max(320px, $container-width);
+}
+
+.container-right {
+  padding-left: calc((100% - #{$container-width})/2 + #{$container-padding});
+
 }
 
 p,
 a,
 button {
-  color: #000;
+  color: $text---main;
 }
 
 img {
