@@ -96,6 +96,29 @@ img {
 .header {
   background-color: #172755;
   overflow: hidden;
+  position: relative;
+}
+.header::after {
+  content: "";
+  width: 700px;
+  height: 700px;
+  background: url("../assets/icons/Subtract.svg") no-repeat;
+  background-size: cover;
+  top: -261px;
+  left: -100px;
+  position: absolute;
+  z-index: 1;
+}
+.header::before {
+  content: "";
+  width: 1438px;
+  height: 1438px;
+  background: url("../assets/icons/Subtract.svg") no-repeat;
+  background-size: cover;
+  top: -40px;
+  right: -360px;
+  position: absolute;
+  z-index: 1;
 }
 
 .header__row {
@@ -105,7 +128,7 @@ img {
 
 .header__content {
   max-width: 550px;
-  margin: 80px 80px 0 0;
+  margin: 80px 150px 0 0;
 }
 
 .header__title {
@@ -141,7 +164,6 @@ img {
 .header__images {
   padding: 25px 27px 22px 32px;
   border-radius: 30px;
-  transform: translateX(150px);
   background-color: #fff;
   box-shadow: 0 18px 50px -15px rgba(25, 42, 89, 0.2);
   position: relative;
