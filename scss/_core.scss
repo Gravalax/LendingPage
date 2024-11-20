@@ -2,18 +2,19 @@
 
 body {
   font-family: $font-family;
-  background: $dark-blue;
+  background-color: $backround--white;
   @include min-max(320px, 100%);
   padding: 0;
 }
 
 .container {
   @include min-max(320px, $container-width);
+  width: 100%;
 }
 
 .container-right {
   padding-left: calc((100% - #{$container-width})/2 + #{$container-padding});
-
+  width: auto;
 }
 
 p,
